@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { WizardFormComponent } from './wizard-form/wizard-form.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WizardFormComponent
   ],
   imports: [
     BrowserModule
