@@ -9,10 +9,10 @@ import { Dingus } from '../dingus';
 })
 export class WizardFormComponent {
 
-  powers = ['Really Smart', 'Super Flexible',
-            'Super Cool', 'Weather Changer'];
+  powers = ['Really Quick', 'Made Of Gas',
+            'Can Drink A Lot', 'Nice To People'];
 
-  model = new Dingus(11, 'Toofast', this.powers[0], 'Mitch');
+  model = new Dingus(11, 'Toofast', 'Mitch', this.powers[0]);
 
   submitted = false;
 
