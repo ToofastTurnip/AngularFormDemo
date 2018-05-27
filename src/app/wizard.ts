@@ -1,4 +1,4 @@
-export class Dingus {
+export class Wizard {
 
     constructor(
         public id: number,

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { Dingus } from '../dingus';
+import { Wizard } from '../wizard';
 
 @Component({
   selector: 'app-wizard-form',
@@ -12,14 +12,14 @@ export class WizardFormComponent {
   powers = ['Really Quick', 'Made Of Gas',
             'Can Drink A Lot', 'Nice To People'];
 
-  model = new Dingus(11, 'Toofast', this.powers[0], 'Mitch');
+  model = new Wizard(1, 'Toofast', this.powers[0], 'Mitch');
 
   submitted = false;
 
   onSubmit() { this.submitted = true; }
 
   newWizard() {
-    this.model = new Dingus(42, '', '');
+    this.model = new Wizard(2, '', this.powers[0], '');
   }
 
   // TODO: Remove this when we're done
