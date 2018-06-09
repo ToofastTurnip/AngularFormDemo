@@ -22,7 +22,4 @@ export class WizardFormComponent {
     this.model = new Wizard(2, '', this.powers[0], '');
   }
 
-  // TODO: Remove this when we're done
-  get diagnostic() { return JSON.stringify(this.model); }
-
 }
